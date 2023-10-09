@@ -1,11 +1,11 @@
 package com.mysql.jdbc.test;
 
 class Article {
-    int id;
+    public int id;
     public String regDate;
     public String  updateDate;
-    String title;
-    String body;
+    public String title;
+    public String body;
 
     public Article(int id, String regDate, String updateDate, String title, String body) {
         this.id = id;
